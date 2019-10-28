@@ -27,6 +27,7 @@ void setup()
     topRightShape (b, -b);
   }
 }
+
 void bgLine(int x, int y) //background lines
 {
   pushMatrix();
