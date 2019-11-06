@@ -36,8 +36,10 @@ void draw() {
   int nounChange = (int) random (nouns.length);  //randomising which noun it picks
   int verbChange = (int) random (verbs.length);  //randomising which verb it picks
   int adverbsChange = (int) random (adverbs.length);  //randomising which adverb it picks
+  
+  int wordPosition = width/4; //divided by 4 to enable words to sit at the quarter points
 
-  text (nouns[nounChange], width/4, y);  //writes a random noun, at 1/4 of the width and at the middle of the height
-  text (verbs[verbChange], width/2, y);  //writes a random verb, at 2/4 of the width and at the middle of the height
-  text (adverbs[adverbsChange], ((width/4)*3), y);  //writes a random noun, at 3/4 of the width and at the middle of the height
+  text (nouns[nounChange], wordPosition, y);  //writes a random noun, at 1/4 of the width and at the middle of the height
+  text (verbs[verbChange], (wordPosition*2), y);  //writes a random verb, at 2/4 of the width and at the middle of the height
+  text (adverbs[adverbsChange], (wordPosition*3), y);  //writes a random noun, at 3/4 of the width and at the middle of the height
 }
