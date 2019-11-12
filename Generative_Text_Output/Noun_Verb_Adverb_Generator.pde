@@ -17,7 +17,7 @@ String[] adverbs = new String[]{"poorly", "excellently", "abruptly", "beautifull
      "scarcely", "ferociously", "idiosyncratically", "loudly", "absently", "energetically"};
 
 void setup() {
-  size(1000, 300);  //long to create space for the words
+  size(1500, 300);  //long to create space for the words
   
   font = createFont("Garamond", 32);  //Garamond since Penguin Books uses it
   textFont(font, 60);  //large enough to look good
