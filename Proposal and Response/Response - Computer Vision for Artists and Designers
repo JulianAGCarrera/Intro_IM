@@ -1,0 +1,16 @@
+Response to Golan Levin's "Computer Vision for Artists and Designers"
+
+Golan Levin's notes on computer vision prove to be helpful in understanding how a computer, using cameras, sees the world. Seeing, for us,
+is a natural thing: we have eyes, we notice things, and we create an idea of the world around us from this vision. Thing is, even though
+our brain takes images as wholes and processes them as such, it also enables us to have selective tunnel vision. Because of this, we can
+focus on particular things and ignore other things. Apart from that, we also have pattern recognition that enables to pick out things from
+other things without much trouble.
+
+A computer linked to a camera, however, skips out on the majority of what I have just said. A computer with a camera just sees images as
+wholes. It needs the additional programming to start recognising that the images it sees are made up of a collection of things, rather than
+a collection of pixels. In other words, it needs to figure out how to tell the objects it sees apart from each other, and it does so
+primarily by cross-checking what the background is (and, thus, pick out what is not background), the brightness levels, or shape.
+
+The application of these tools allow for different programs to use cameras and track bodies, cars, movement, faces, races. It allows
+for social commentary (or, more commonly, the existence of dystopic surveillance states). It is a double-sided blade that, on one hand.
+allows new affordances for art and computation, but also allows for further invasions of privacy.
