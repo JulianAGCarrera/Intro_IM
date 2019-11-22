@@ -1,0 +1,61 @@
+PROJECT DESCRIPTION:
+
+A playable game, inspired in old internet memes. It is a playable maze where players must go through without touching the walls; if they
+do, they are taken back to the beginning. Now, the "internet memes" part of it comes out of old memory of two memes in particular:
+jumpscares and the so-called Rick-Roll. The jumpscare would consist of an unexpected image appearing at the least expected time (the case
+in particular I'm taking inspiration from uses a still image from "The Exorcist" coupled with a scream). The Rick-Roll, on the other hand,
+consists of a YouTube joke where, upon clicking a video that was meant to be about something else (like, for example, a video titled
+"Real Alien Caught on Camera"), Rick Astley's "Never Gonna Give You Up" would start playing. The meme became so widespread that it
+merited its own name, Rick-Roll.
+Knowing that, then, I want to mix these two ideas. I want to make a maze in the style of  this video:
+https://www.youtube.com/watch?v=e_IK3uEDLeY but, instead of having a jumpscare, add Rick Astley's "Never Gonna Give You Up" to undo the
+expectations of those familiar with the meme.
+
+ROUGH SKETCH OF THE ENTIRE PROJECT:
+
+I will make a maze on Processing that is played by moving a square around the screen, using 4 buttons (each representing a direction from
+up, down, left, right) on an Arduino-operated controller. I will start by coding both the Processing sketch and the Arduino program
+before moving onto figuring out the physical aspect of it. Given its status as a reaction to old memes, however, I am half-tempted to
+rely on cardboard to make it look more handmade and less professional, in favor of the aesthetic. Thus, I will need basic tools
+like cutters (and cardboard, obviously). The space it occupies will be, mostly, my laptop (I can cover the keyboard and the area
+around it in cardboard, too, for the sake of aesthetics) and the USB-connected cardboard Arduino controller. Since the Rick-Roll is a
+video, I will use my laptop's speakers to play the audio. The video itself will play on Processing. As such, my project would be better
+suited to be near other loud projects.
+
+DIAGRAM OF THE HARDWARE (SEPARATE FILE)
+
+LIST OF PARTS I NEED THAT ARE NOT IN THE KIT:
+
+-Cardboard.
+-(Maybe) wood for weight.
+-Cutter.
+-Ruler/Vernier Calliper.
+-Buttons (can reuse from previous instrument-tuning project).
+-Wires (ditto).
+-Solder (ditto).
+
+DESCRIPTION OF THE ARDUINO PROGRAM:
+
+4 pins in use, one for every button. They will do a digital read and, if they are pressed, do a Serial write. If it works, I will label
+them in the style of [Direction][H/L] to signify the button and whether it is being pressed (High) or not (Low).
+
+DESCRIPTION OF THE PROCESSING PROGRAM:
+
+Using various rectangles (if it works, each on their own function for clarity), I will make a pathway through which a small square
+(the player) must maneuver through. I will use a gamestate integer (or boolean) that is set as a 0 in setup, but as a 1 in draw. As
+long as it remains a 1, the game continues. If the player touches a wall, the integer/boolean will be set to 0 and the game will reset
+(if it all works smoothly). As such, I will also include some form of collision detection to find when players touch the walls.
+Due to time constraints, I want to focus on making 1 level that increases in difficulty as it goes, rather than multiple levels. I will
+draw an "end goal" rectangle, somewhere at the end, but will add an invisible trigger before getting it that activates the playing
+of the Rick-Roll video and its audio.
+
+THINGS I NEED TO LEARN:
+
+-How to do collision detection.
+-Figuring out reliable communication between Arduino and Processing.
+-Reliable ways to reset Processing without closing the window.
+
+Areas of greatest concern:
+
+Collision detection is, by far, my greatest concern. I know how to make the character move through if statements and "name++" but cannot
+figure out a way to reliably detect collision other than adding specific detection thresholds to every single wall.
