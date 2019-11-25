@@ -22,8 +22,7 @@ around it in cardboard, too, for the sake of aesthetics) and the USB-connected c
 video, I will use my laptop's speakers to play the audio. The video itself will play on Processing. As such, my project would be better
 suited to be near other loud projects.
 
-DIAGRAM OF THE HARDWARE:
-![](/Hardware Diagram.jpg)
+DIAGRAM OF THE HARDWARE: (separate file)
 
 LIST OF PARTS I NEED THAT ARE NOT IN THE KIT:
 
