@@ -23,7 +23,7 @@ video, I will use my laptop's speakers to play the audio. The video itself will 
 suited to be near other loud projects.
 
 DIAGRAM OF THE HARDWARE:
-![](Hardware Diagram.jpg)
+![](/Hardware Diagram.jpg)
 
 LIST OF PARTS I NEED THAT ARE NOT IN THE KIT:
 
