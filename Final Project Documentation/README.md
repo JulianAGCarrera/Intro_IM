@@ -43,7 +43,7 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 (See pictures in Pictures folder)
 
 
-**System diagram of the hardware and software**
+**System diagram of the hardware**
 	
 
 (See Diagram files in Electronics folder)
