@@ -39,14 +39,14 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 
 **Overall picture(s)**
 	
-/
-	(See other files)
+
+(See other files)
 
 
 **System diagram of the hardware and software**
 	
-/	
-	(See Diagram files)
+
+(See Diagram files)
 
 
 **List of important parts**
@@ -85,13 +85,25 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 **Explain how your project works and how you built it**
 	
 	
-	My project is easily divided into 3 parts: Arduino, Processing, and Controller.
-	The Arduino part is simple: there are 5 buttons, 4 of them write a character in the Serial communication: W for the up button, A for the left button, S for the down button, and D for the right button. The specific choice of letters is to mimic the keyboard tradition of the WASD keys as movement in video games, and is also a shortcut to avoid dealing with Serial strings. The fifth button, which serves as the Action button, sends out a P, which shows the scars of the code, since the Action button used to be the Start button, but since the S was taken, it got the P for Pause.
-	The Processing part is a bit more complicated. The first thing the game keeps track of is the game state integer, set with different integers that represent 3 levels, 3 transitions, the starting screen, the losing screen, the Rick-Roll, and the ending screen. On the Draw function, if statements track the game state and draws something differently on the screen.
-	For controls, Processing reads the W, A, S, D, and P. W, A, S, and D add the integer speed to the integers for the player’s centre on X and on Y. P is active on the start, end, loss, Rick-Roll, and the transitions, and it turns the Boolean StartPress to true. Using the game state integers, W, A, S, and D are set to be active only on levels. In-game, the action button, or P, slows the player down, but not because it changes the speed integer, but because it occupies another spot in the serial, meaning that, instead of adding speed every frame with the read of a W, A, S, or D, it adds speed every other frame as it reads W, A, S, or D, and P.
-	The transitions, loss screen, start, and end are just black screens with white text. The Rick-Roll is an image of Rick Astley and the song Never Gonna Give You Up (I will develop on why I used an image in the problems). The levels, on Draw, are a bunch of functions. Every function represents a different wall of the maze in every level, and, to avoid any kinds of glitches, collision detection is done on a local function level that only exists when the function is called on Draw. The collision detection also works tracking the player’s centre, rather than the edges (I will also develop this on the problems), so I ended up needing a workaround: making the player’s core a visible red and stating outwards that this is where collision worked.
-	As for the controller itself, I reused 5 out of the 6 soldered and wired buttons I used on my midterm project, giving me some security that I wouldn’t need the extra labour time needed to solder. Since 5 of them were a dull red and 1 was bright red, I used the bright one for the Action button and 4 dull ones for the Directional-Pad. I used large pieces of cardboard to allow for a relatively large controller box that would be more durable than a small controller (and had more space for cables inside of it) by reinforcing the inner walls with extra pieces of cardboard. Instead of doing a build reliant on a typical pattern for building cubes (the cross pattern), I cut and put together different cardboard squares to make the cube, adding holes at the top for the buttons and a small flap with a hole on the side for A) easy access to the insides if anything goes wrong and B) a semi-aesthetic way for the red cable to go from inside the cube to the laptop. And to keep most of the cable inside there, too.
-	I put the cube together using hot glue and reinforcing the sides with extra cardboard. The breadboard and the Arduino are glued and screwed to the black plastic board that came with the Sparkfun set, and then used hot glue to glue that board to the inside of the box, at the back to make sure to have space for the red cable. All in all, I like how it adds to a certain quick aesthetic, it looks unrefined, and it looks ready to share an idea without staying behind in meme currents.
+My project is easily divided into 3 parts: Arduino, Processing, and Controller.
+
+
+The Arduino part is simple: there are 5 buttons, 4 of them write a character in the Serial communication: W for the up button, A for the left button, S for the down button, and D for the right button. The specific choice of letters is to mimic the keyboard tradition of the WASD keys as movement in video games, and is also a shortcut to avoid dealing with Serial strings. The fifth button, which serves as the Action button, sends out a P, which shows the scars of the code, since the Action button used to be the Start button, but since the S was taken, it got the P for Pause.
+
+
+The Processing part is a bit more complicated. The first thing the game keeps track of is the game state integer, set with different integers that represent 3 levels, 3 transitions, the starting screen, the losing screen, the Rick-Roll, and the ending screen. On the Draw function, if statements track the game state and draws something differently on the screen.
+	
+	
+For controls, Processing reads the W, A, S, D, and P. W, A, S, and D add the integer speed to the integers for the player’s centre on X and on Y. P is active on the start, end, loss, Rick-Roll, and the transitions, and it turns the Boolean StartPress to true. Using the game state integers, W, A, S, and D are set to be active only on levels. In-game, the action button, or P, slows the player down, but not because it changes the speed integer, but because it occupies another spot in the serial, meaning that, instead of adding speed every frame with the read of a W, A, S, or D, it adds speed every other frame as it reads W, A, S, or D, and P.
+
+
+The transitions, loss screen, start, and end are just black screens with white text. The Rick-Roll is an image of Rick Astley and the song Never Gonna Give You Up (I will develop on why I used an image in the problems). The levels, on Draw, are a bunch of functions. Every function represents a different wall of the maze in every level, and, to avoid any kinds of glitches, collision detection is done on a local function level that only exists when the function is called on Draw. The collision detection also works tracking the player’s centre, rather than the edges (I will also develop this on the problems), so I ended up needing a workaround: making the player’s core a visible red and stating outwards that this is where collision worked.
+
+
+As for the controller itself, I reused 5 out of the 6 soldered and wired buttons I used on my midterm project, giving me some security that I wouldn’t need the extra labour time needed to solder. Since 5 of them were a dull red and 1 was bright red, I used the bright one for the Action button and 4 dull ones for the Directional-Pad. I used large pieces of cardboard to allow for a relatively large controller box that would be more durable than a small controller (and had more space for cables inside of it) by reinforcing the inner walls with extra pieces of cardboard. Instead of doing a build reliant on a typical pattern for building cubes (the cross pattern), I cut and put together different cardboard squares to make the cube, adding holes at the top for the buttons and a small flap with a hole on the side for A) easy access to the insides if anything goes wrong and B) a semi-aesthetic way for the red cable to go from inside the cube to the laptop. And to keep most of the cable inside there, too.
+
+
+I put the cube together using hot glue and reinforcing the sides with extra cardboard. The breadboard and the Arduino are glued and screwed to the black plastic board that came with the Sparkfun set, and then used hot glue to glue that board to the inside of the box, at the back to make sure to have space for the red cable. All in all, I like how it adds to a certain quick aesthetic, it looks unrefined, and it looks ready to share an idea without staying behind in meme currents.
 
 
 **Discuss what problems you ran into and how you resolved them or worked around them**
