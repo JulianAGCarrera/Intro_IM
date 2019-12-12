@@ -39,12 +39,8 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 
 **Overall picture(s)**
 	
-	
-![Picture 1](/Pictures/Level 2 and Controller.jpg)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+(See pictures in the Pictures folder)
 
 
 **System diagram of the hardware and software**
