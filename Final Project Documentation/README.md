@@ -40,7 +40,8 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 **Overall picture(s)**
 	
 
-(See pictures in the Pictures folder)
+![Picture 1][1]
+[1]: https://github.com/JulianAGCarrera/Intro_IM/blob/master/Final%20Project%20Documentation/Pictures/Level%202%20and%20Controller.jpg "1"
 
 
 **System diagram of the hardware and software**
