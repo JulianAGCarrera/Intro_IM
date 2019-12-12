@@ -46,7 +46,7 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 **System diagram of the hardware and software**
 	
 
-(See Diagram files)
+(See Diagram files in Electronics folder)
 
 
 **List of important parts**
@@ -73,7 +73,7 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 **Pictures of the electronics**
 
 
-(See other files)
+(See other files in Electronics folder)
   
   
 **Code**
