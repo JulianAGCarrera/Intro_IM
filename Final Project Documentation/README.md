@@ -6,7 +6,6 @@
 
 **Overall project concept and description**
 
-
 	Overall, my concept is the result of old memes. A call to nostalgia, if anything, considering the memes I’m using. I started out with the idea to use a Rick-Roll, an old meme that used Rick Astley’s Never Gonna Give You Up as a way to bait people. The meme was mostly confined to early YouTube, and consisted of videos advertised as something else. So, for example, a video with a thumbnail of a puppy and a title like “CUTEST PUPPY EVER” would open up and play the music video for Never Gonna Give You Up.
 	In a way, a rick-Roll is similar in nature to the screamer tradition of including a loud scream and a scary image when not expected. While the Rick-Roll was meant to annoy, the screamer was meant to scare.
 	Perhaps the best example of the screamer is Jeremy Winterrowd’s game The Maze, a 3-level maze game (advertised as having 4 levels) where players had to navigate a black square through progressively tighter spaces, eventually resulting in a screamer before the end of the third level. The game was shared via email and early social media, baiting people to play the maze game and find the screamer.
