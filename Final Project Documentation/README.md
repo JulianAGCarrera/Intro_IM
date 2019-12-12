@@ -75,9 +75,6 @@
 
 
 **Discuss what problems you ran into and how you resolved them or worked around them**
-	
-	
-	For ease of reading, I will bullet point this:
 
 
 •Collision detection on the whole character square: To draw the Player, I use 3 integers, PlayerCenterX, PlayerCenterY, and PlayerSize. Since the square is drawn from the centre, the X and Y centres change when moving. The size is the same for X and Y axes. Initially, I had 4 other variables: CollisionLeft, Right, Top, and Bottom; CenterX – Size, CenterX + Size, CenterY – Size, CenterY + Size, respectively. On testing collision with these integers, however, nothing would happen. Collision wouldn’t register at any point of contact. This was a recurring problem, too: integers that had some mathematical description of what they were tended to be ignored by the program, particularly for collision, which preferred the exact number of the player centres. I couldn’t fix the problem, but I rolled with it by using a red square inside the Player, which, despite being bigger than the actual collision detector, gives the illusion of a larger detector.
