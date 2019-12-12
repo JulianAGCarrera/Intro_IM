@@ -133,3 +133,7 @@ A common comment was that having to rely on the Action button to slow everything
 For videos of users playing, see:
 
 [Playtest 1](https://youtu.be/gL8o5SP1LnA)
+
+[Playtest 2](https://youtu.be/H1I_PtKzj4g)
+
+[Playtest 3](https://youtu.be/-7eLGJSqC10)
