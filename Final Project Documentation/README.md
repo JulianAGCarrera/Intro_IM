@@ -7,7 +7,7 @@
 **Overall project concept and description**
 
 
-
+\
 
 	Overall, my concept is the result of old memes. A call to nostalgia, if anything, considering the memes I’m using. I started out with the idea to use a Rick-Roll, an old meme that used Rick Astley’s Never Gonna Give You Up as a way to bait people. The meme was mostly confined to early YouTube, and consisted of videos advertised as something else. So, for example, a video with a thumbnail of a puppy and a title like “CUTEST PUPPY EVER” would open up and play the music video for Never Gonna Give You Up.
 	
