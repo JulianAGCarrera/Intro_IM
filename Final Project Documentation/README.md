@@ -40,7 +40,7 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 **Overall picture(s)**
 	
 
-(See other files)
+(See other files in Pictures folder)
 
 
 **System diagram of the hardware and software**
