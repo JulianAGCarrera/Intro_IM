@@ -78,10 +78,20 @@
 	
 	
 	For ease of reading, I will bullet point this:
+
+
 •Collision detection on the whole character square: To draw the Player, I use 3 integers, PlayerCenterX, PlayerCenterY, and PlayerSize. Since the square is drawn from the centre, the X and Y centres change when moving. The size is the same for X and Y axes. Initially, I had 4 other variables: CollisionLeft, Right, Top, and Bottom; CenterX – Size, CenterX + Size, CenterY – Size, CenterY + Size, respectively. On testing collision with these integers, however, nothing would happen. Collision wouldn’t register at any point of contact. This was a recurring problem, too: integers that had some mathematical description of what they were tended to be ignored by the program, particularly for collision, which preferred the exact number of the player centres. I couldn’t fix the problem, but I rolled with it by using a red square inside the Player, which, despite being bigger than the actual collision detector, gives the illusion of a larger detector.
+
+
 •Picture and music instead of video for the Rick-Roll: It is still unclear to me why the video didn’t work. The video file was good. My code was right as Processing’s examples said, and yet, I always got the message that VM failed to initialise. On googling this issue, I found that this was a graphic driver problem. I outdated my driver to what everyone online was recommending and found the same results. I tried updating to the latest version. No difference. It was not a problem with my code, but with my laptop, and since I would use my laptop for the show, I had to come to a roundabout solution: adding only the music and getting a screenshot of Rick Astley singing from the music video. This much worked.
+
+
 •Random collision detection: Sometimes collision detection would randomly trigger, despite there being no apparent mistakes in the code. Rewriting the code in the exact same way seemed to fix it for whatever reason. In one instance, it was because of a misplaced bracket, but other than that, it didn’t seem to be because of anything in particular.
+
+
 •The Action button buffered the Boolean StartPress to true on multiple frames: What happened was that, on pressing the button, StartPress was set to true. It needs to be set to false elsewhere in the code. For fault proofing, I set it to false in if statements that need it to be true, and at the start of every individual game state’s if statement. In most cases, this fixed the issue, but holding the button pressed, particularly in the last sequence, just skipped everything to the first level again.
+
+
 •Coming up with a timer to avoid the StartPress buffer: I tried millis(). Tried FrameCount. Tried setting up an integer to increase by one every frame until 300 for a 5-second counter. Tried a delay. Nothing seemed to work, and what worked (which is to say, the delay) stopped everything. I chose to not add a timer.
 
 
