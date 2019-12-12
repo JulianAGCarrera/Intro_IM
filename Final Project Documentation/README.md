@@ -10,33 +10,41 @@
 
 \
 	Overall, my concept is the result of old memes. A call to nostalgia, if anything, considering the memes I’m using. I started out with the idea to use a Rick-Roll, an old meme that used Rick Astley’s Never Gonna Give You Up as a way to bait people. The meme was mostly confined to early YouTube, and consisted of videos advertised as something else. So, for example, a video with a thumbnail of a puppy and a title like “CUTEST PUPPY EVER” would open up and play the music video for Never Gonna Give You Up.
+	
 \
 	In a way, a rick-Roll is similar in nature to the screamer tradition of including a loud scream and a scary image when not expected. While the Rick-Roll was meant to annoy, the screamer was meant to scare.
+	
 \	
 	Perhaps the best example of the screamer is Jeremy Winterrowd’s game The Maze, a 3-level maze game (advertised as having 4 levels) where players had to navigate a black square through progressively tighter spaces, eventually resulting in a screamer before the end of the third level. The game was shared via email and early social media, baiting people to play the maze game and find the screamer.
+	
 \	
 	I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-level maze game (that advertises 4 levels) that ends in a similar moment, with a Rick-Roll instead. I use the same general aesthetic as The Maze, which is to say, a black square the player controls, black maze walls, a red rectangle for the goal (which is exactly the RGB colour 255, 0, 0), and a cyan background (which is, also, exactly the RGB colour 0, 255, 255). On collision with the walls, the game ends and the player must start again from the beginning. On collision with the goal rectangle, the next level starts. I mimicked these colours and made 3 levels. Unlike the levels in The Maze, however, I made an easy level, a tedious level, and a tricky level. I also extended gameplay by making roundabout ways to the goal.
+	
 \
 	All in all, my goal with the design of the game was to have a clear visual reference so people who play the game immediately think back to The Maze, a reference that, given the tediousness of my levels, builds up tension in expectation for the screamer. Since the surprise turns out to be a Rick-Roll, however, the nature of the Rick-Roll changes from an annoying trap to the relief of not being a screamer. I find this change of meaning interesting with the change of context.
+	
 \
 	Now, as for the physical side of the game, I also take some reference to The Maze after testing the communication between Arduino and Processing, which tends to be not exact and seems to have some internal delay as Processing reads the serial communication. While the controls in The Maze are responsive, the game tends to be too fast. Using a physical Arduino controller, I replicate the feeling of loss of control in how controls can be a bit unresponsive at times.
+	
 \
         The design of the controller itself was more a result of applied design rather than inherited controller design. So instead of having the character movement on the left and other buttons on the right, I have the character movement on the right and the single Action button on the left. Since the focus of the game is movement and the Action button can be used to slow down movement, I figured that using the right hand for movement, which is, in the vast majority of cases, the dominant hand, would be a decent approach. It also literalises the beginning of the game, since the player character always starts on the right side of the screen.
+	
 \
 	I also take pride in this approach: instead of relying on the normal left to right movement, I make the player go from right to left to go against the grain of reading, signifying something wrong and highlighting the tension of the jumpscare.
+	
 \
-	Put together, then, the project adds up to create an “aesthetic of memes,” even relying on the fast nature of memes (represented in the use of cardboard), where trends die quickly and memes must be made and shared at breakneck speeds if they have any hope at
+	Put together, then, the project adds up to create an “aesthetic of memes,” even relying on the fast nature of memes (represented in the use of cardboard), where trends die quickly and memes must be made and shared at breakneck speeds if they have any hope at staying relevant.
 
 
 **Overall picture(s)**
 	
-	
+/
 	(See other files)
 
 
 **System diagram of the hardware and software**
 	
-	
+/	
 	(See Diagram files)
 
 
