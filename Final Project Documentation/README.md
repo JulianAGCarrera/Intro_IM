@@ -7,16 +7,17 @@
 **Overall project concept and description**
 
 
-
 \
 	Overall, my concept is the result of old memes. A call to nostalgia, if anything, considering the memes I’m using. I started out with the idea to use a Rick-Roll, an old meme that used Rick Astley’s Never Gonna Give You Up as a way to bait people. The meme was mostly confined to early YouTube, and consisted of videos advertised as something else. So, for example, a video with a thumbnail of a puppy and a title like “CUTEST PUPPY EVER” would open up and play the music video for Never Gonna Give You Up.
 	
 \
 	In a way, a rick-Roll is similar in nature to the screamer tradition of including a loud scream and a scary image when not expected. While the Rick-Roll was meant to annoy, the screamer was meant to scare.
-	
+
+
 \	
 	Perhaps the best example of the screamer is Jeremy Winterrowd’s game The Maze, a 3-level maze game (advertised as having 4 levels) where players had to navigate a black square through progressively tighter spaces, eventually resulting in a screamer before the end of the third level. The game was shared via email and early social media, baiting people to play the maze game and find the screamer.
-	
+
+
 \	
 	I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-level maze game (that advertises 4 levels) that ends in a similar moment, with a Rick-Roll instead. I use the same general aesthetic as The Maze, which is to say, a black square the player controls, black maze walls, a red rectangle for the goal (which is exactly the RGB colour 255, 0, 0), and a cyan background (which is, also, exactly the RGB colour 0, 255, 255). On collision with the walls, the game ends and the player must start again from the beginning. On collision with the goal rectangle, the next level starts. I mimicked these colours and made 3 levels. Unlike the levels in The Maze, however, I made an easy level, a tedious level, and a tricky level. I also extended gameplay by making roundabout ways to the goal.
 	
