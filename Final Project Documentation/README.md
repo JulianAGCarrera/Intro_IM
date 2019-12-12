@@ -132,4 +132,4 @@ I was also told that going back to level 1 after losing on any level was frustra
 A common comment was that having to rely on the Action button to slow everything down was not the best given how fast it moved. So I reduced the speed float from 0.5 to 0.3, so that, instead of moving one pixel every 2 frames, it moved one pixel every 3 frames or so. This small change made the speed more manageable.
 For videos of users playing, see:
 
-[Playtest 1]{https://youtu.be/gL8o5SP1LnA}
+[Playtest 1](https://youtu.be/gL8o5SP1LnA)
