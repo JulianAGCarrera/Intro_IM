@@ -40,22 +40,25 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 **Overall picture(s)**
 	
 
-![](Final Project Documentation/Pictures/Level 2 and Controller.jpg)
+![](https://raw.githubusercontent.com/JulianAGCarrera/Intro_IM/master/Final%20Project%20Documentation/Pictures/Level%202%20and%20Controller.jpg)
 
 
-![](Final Project Documentation/Pictures/Level 2 example.jpg)
+![](https://raw.githubusercontent.com/JulianAGCarrera/Intro_IM/master/Final%20Project%20Documentation/Pictures/Level%202%20example.jpg)
 
 
-![](Final Project Documentation/Pictures/Start and Controller.jpg)
+![](https://raw.githubusercontent.com/JulianAGCarrera/Intro_IM/master/Final%20Project%20Documentation/Pictures/Start%20and%20Controller.jpg)
 
 
-![](Final Project Documentation/Pictures/Start screen.jpg)
+![](https://raw.githubusercontent.com/JulianAGCarrera/Intro_IM/master/Final%20Project%20Documentation/Pictures/Start%20screen.jpg)
+
+
+![](https://raw.githubusercontent.com/JulianAGCarrera/Intro_IM/master/Final%20Project%20Documentation/Processing_Final_RickRoll/Data/Rick.png)
 
 
 **System diagram of the hardware**
 	
 
-![](Final Project Documentation/Electronics/Final Project Diagram.jpg)
+![](https://raw.githubusercontent.com/JulianAGCarrera/Intro_IM/master/Final%20Project%20Documentation/Electronics/Final%20Project%20Diagram.jpg)
 
 
 **List of important parts**
@@ -82,17 +85,19 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 **Pictures of the electronics**
 
 
-![](Final Project Documentation/Electronics/In Progress.jpg)
-![](Final Project Documentation/Electronics/Inside.jpg)
-![](Final Project Documentation/Electronics/Outside.jpg)
-![](Final Project Documentation/Electronics/Top.jpg)
+![](https://raw.githubusercontent.com/JulianAGCarrera/Intro_IM/master/Final%20Project%20Documentation/Electronics/In%20Progress.jpg)
+![](https://raw.githubusercontent.com/JulianAGCarrera/Intro_IM/master/Final%20Project%20Documentation/Electronics/Inside.jpg)
+![](https://raw.githubusercontent.com/JulianAGCarrera/Intro_IM/master/Final%20Project%20Documentation/Electronics/Outside.jpg)
+![](https://raw.githubusercontent.com/JulianAGCarrera/Intro_IM/master/Final%20Project%20Documentation/Electronics/Top.jpg)
   
   
 **Code**
 
 
-[Arduino](Final Project Documentation/Arduino_Final_RickRoll/Arduino_Final_RickRoll.ino)
-(See folders for Arduino and Processing)
+[Arduino](https://github.com/JulianAGCarrera/Intro_IM/blob/master/Final%20Project%20Documentation/Arduino_Final_RickRoll/Arduino_Final_RickRoll.ino)
+
+
+[Processing](https://github.com/JulianAGCarrera/Intro_IM/blob/master/Final%20Project%20Documentation/Processing_Final_RickRoll/Processing_Final_RickRoll.pde)
   
   
 **Explain how your project works and how you built it**
