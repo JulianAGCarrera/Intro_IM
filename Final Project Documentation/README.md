@@ -40,13 +40,16 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 **Overall picture(s)**
 	
 
-![](Pictures/Level 2 example.jpg)
+![](Final Project Documentation/Pictures/Level 2 and Controller.jpg)
+![](Final Project Documentation/Pictures/Level 2 example.jpg)
+![](Final Project Documentation/Pictures/Start and Controller.jpg)
+![](Final Project Documentation/Pictures/Start screen.jpg)
 
 
 **System diagram of the hardware**
 	
 
-(See Diagram files in Electronics folder)
+![](Final Project Documentation/Electronics/Final Project Diagram.jpg)
 
 
 **List of important parts**
@@ -73,12 +76,16 @@ I decided to mix these two examples, The Maze and Rick-Rolls, to create a 3-leve
 **Pictures of the electronics**
 
 
-(See other files in Electronics folder)
+![](Final Project Documentation/Electronics/In Progress.jpg)
+![](Final Project Documentation/Electronics/Inside.jpg)
+![](Final Project Documentation/Electronics/Outside.jpg)
+![](Final Project Documentation/Electronics/Top.jpg)
   
   
 **Code**
 
 
+[Arduino](Final Project Documentation/Arduino_Final_RickRoll/Arduino_Final_RickRoll.ino)
 (See folders for Arduino and Processing)
   
   
